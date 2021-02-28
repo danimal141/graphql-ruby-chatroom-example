@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180407113139) do
+ActiveRecord::Schema.define(version: 2018_04_07_113139) do
 
   create_table "graphql_client_operations", force: :cascade do |t|
     t.integer "graphql_client_id", null: false
